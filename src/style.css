@@ -1,3 +1,57 @@
-.app_background{
-    background-image: url(./img/banner.png);
+@font-face {
+  font-family: NetflixSans;
+  src: url(../fontes/NetflixSans-Regular.otf) format("opentype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app_background {
+  height: 100vh;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+
+.nav_list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: NetflixSans;
+  font-size: 14px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo_menu {
+  height: 8vh;
+}
+
+.icones_menu {
+  align-items: last baseline;
+}
+
+.icones {
+  height: 4vh;
+  padding: 50px;
 }
